@@ -17,5 +17,5 @@ DOMAIN_NAME=littlest.link
 ### Other info to know
 
 1. Yes this could be done with one table.
-2. The permissions are loose
+2. The permissions are loose.
 3. I'm sure there's more robust versions of this out there.

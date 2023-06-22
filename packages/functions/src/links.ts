@@ -104,7 +104,7 @@ export async function go(_evt: any) {
         headers: {
           "Content-Type": "text/html",
         },
-        body: `<html><head><meta http-equiv="refresh" content="0; url=https://littlest.link/" /></head><body><h1>littlest.link</h1><p>Download source <a href="https://github.com/benisntfunny/littlest-link">Here</a></p></body></html>`,
+        body: `<html><head><meta http-equiv="refresh" content="0; url=https://littlest.link/" /></head><body><h1>littlest.link</h1><p>Download source <a href="https://github.com/benisntfunny/littlest-link" target="_blank">here</a>.</p></body></html>`,
       };
     }
 
