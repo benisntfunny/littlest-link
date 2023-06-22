@@ -6,15 +6,17 @@ I didn't want to pay for a URL shortening service so this is a simple set of end
 
 ### Requires .env file at the root with
 
-API_KEY - Anything you want
-
-DOMAIN_NAME - A route53 domain name that you will use for your shortening service.
+```
+API_KEY=Anything you want
+DOMAIN_NAME=A route53 domain name that you will use for your shortening service.
+```
 
 #### Example
 
+```
 API_KEY=ABC1234aaaaaa1
-
 DOMAIN_NAME=littlest.link
+```
 
 ### Other info to know
 
