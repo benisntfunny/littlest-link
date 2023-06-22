@@ -100,8 +100,11 @@ export async function go(_evt: any) {
 
     if (!urlKey) {
       return {
-        statusCode: 500,
-        body: "No URL Provided",
+        statusCode: 200,
+        headers: {
+          "Content-Type": "text/html",
+        },
+        body: `<html><head><meta http-equiv="refresh" content="0; url=https://littlest.link/" /></head><body><h1>littlest.link</h1><p>Download source <a href="https://github.com/benisntfunny/littlest-link">Here</a></p></body></html>`,
       };
     }
 

@@ -1,9 +1,6 @@
 /** @format */
 
 import { DynamoDB } from "aws-sdk";
-
-import * as AWS from "aws-sdk";
-const dynamoDB = new AWS.DynamoDB();
 const dynamoDb = new DynamoDB.DocumentClient();
 
 export async function readItemFromDynamoDB(TableName: string, Key: any) {
